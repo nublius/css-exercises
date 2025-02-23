@@ -10,21 +10,29 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-weight: 900;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .sidebar {
-  width: 300px;
+  min-width: 300px;
   background: royalblue;
   box-sizing: border-box;
   display: flex;
   padding: 16px;
+  justify-content: f;
 }
 
 .card-container {
@@ -32,7 +40,7 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 10px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 48px;
 }
 
@@ -46,4 +54,15 @@ body {
 .container {
   display: flex;
   flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
